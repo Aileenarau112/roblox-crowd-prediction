@@ -139,9 +139,3 @@ Pemeriksaan menguji batas label, penolakan input tidak valid, pemisahan kreator,
 URL permintaan, hash SHA-256, ID tidak tersedia, serta waktu setiap respons terdapat di `data/raw/manifest.json`. Beri atribusi kepada Roblox dan rodict ketika memakai snapshot ini. Lisensi MIT proyek berlaku untuk kode buatan proyek; tidak mengalihkan hak atas konten dan merek pihak ketiga.
 
 Untuk mengambil data, jalankan `python src/fetch_data.py` secara eksplisit. Kolektor memakai ulang berkas yang sudah ada. Jika ingin eksperimen pada snapshot baru, buat salinan proyek dengan folder `data/raw` baru dan kosong, lalu jalankan pengambilan dan pelatihan di sana. Skor snapshot baru dapat berbeda; jangan mencampur batch lama dan baru atau mengganti snapshot pengumpulan ini setelah membaca data uji.
-
-## Mengumpulkan ke GitHub
-
-Nama repository yang disarankan: **`roblox-crowd-prediction`**. Buat repository kosong, lalu unggah **isi folder proyek** ke halaman utama repository. Jangan mengunggah ZIP saja. Sertakan kode, README, dataset snapshot dan hasil. Jangan unggah `.venv`, `__pycache__`, atau model biner. Petunjuk lengkap ada di [MULAI_DI_SINI.md](MULAI_DI_SINI.md).
-
-Proyek pendidikan independen; tidak berafiliasi dengan Roblox Corporation. Kode disusun dengan bantuan AI, sementara data dan hasil berasal dari pengambilan serta eksperimen yang dapat dijalankan ulang. Pahami alurnya dan ikuti ketentuan penggunaan AI dari mata kuliah.
