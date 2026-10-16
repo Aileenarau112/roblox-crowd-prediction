@@ -1,0 +1,26 @@
+[
+  {
+    "fold": 1,
+    "train": 180,
+    "validation": 60,
+    "creator_overlap": 0
+  },
+  {
+    "fold": 2,
+    "train": 180,
+    "validation": 60,
+    "creator_overlap": 0
+  },
+  {
+    "fold": 3,
+    "train": 180,
+    "validation": 60,
+    "creator_overlap": 0
+  },
+  {
+    "fold": 4,
+    "train": 180,
+    "validation": 60,
+    "creator_overlap": 0
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "catalog_ids": 303,
+  "verified_ids": 301,
+  "usable_rows": 301,
+  "excluded": [
+    {
+      "universe_id": "0",
+      "reason": "content_restricted"
+    },
+    {
+      "universe_id": "0",
+      "reason": "content_restricted"
+    }
+  ],
+  "missing_inputs": 0,
+  "duplicate_ids": 0,
+  "creators": 298,
+  "train_rows": 240,
+  "test_rows": 61,
+  "class_counts": {
+    "ramai": 250,
+    "sedang": 35,
+    "sepi": 16
+  },
+  "train_class_counts": {
+    "ramai": 200,
+    "sedang": 28,
+    "sepi": 12
+  },
+  "test_class_counts": {
+    "ramai": 50,
+    "sedang": 7,
+    "sepi": 4
+  },
+  "observation_start_utc": "2026-10-16T02:31:59.520936+00:00",
+  "observation_end_utc": "2026-10-16T02:33:38.678220+00:00",
+  "creator_overlap": 0,
+  "thresholds": {
+    "sepi": "0–99",
+    "sedang": "100–999",
+    "ramai": "1000+"
+  }
+}
