@@ -76,7 +76,7 @@ def main():
             raise ValueError('Kelas hilang pada lipatan validasi; tinjau desain.')
         fold_audit.append({'fold': i+1, 'train': len(a), 'validation': len(b), 'creator_overlap': 0})
     save_json(OUT/'cv_folds.json', fold_audit)
-    metric = make_scorer(f1_score, average='macro', labels=LABELS, zero_division=0)
+    metric = make_scorer(f1_score, average='macro', labels=LABELS, zero_division=0, pos_label=None)
     candidates = [
         ('mayoritas', DummyClassifier(strategy='most_frequent'), {}),
         ('logistic_regression', LogisticRegression(class_weight='balanced', max_iter=3000), {'model__C': [.1,1,10]}),

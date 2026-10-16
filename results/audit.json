@@ -24,13 +24,13 @@
   },
   "train_class_counts": {
     "ramai": 200,
-    "sedang": 28,
-    "sepi": 12
+    "sedang": 26,
+    "sepi": 14
   },
   "test_class_counts": {
     "ramai": 50,
-    "sedang": 7,
-    "sepi": 4
+    "sedang": 9,
+    "sepi": 2
   },
   "observation_start_utc": "2026-10-16T02:31:59.520936+00:00",
   "observation_end_utc": "2026-10-16T02:33:38.678220+00:00",

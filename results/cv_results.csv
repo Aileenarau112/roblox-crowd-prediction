@@ -1,9 +1,9 @@
 feature_set,model,cv_macro_f1,cv_std,cv_accuracy,best_parameters
-profil_lengkap,random_forest,0.5850091434409158,0.03825764928987872,0.8083333333333335,"{""model__max_depth"": null, ""model__min_samples_leaf"": 2}"
-profil_lengkap,logistic_regression,0.5389973897598163,0.10645139560398567,0.7333333333333334,"{""model__C"": 10}"
-riwayat_kunjungan,random_forest,0.5384365080064569,0.06499404706970535,0.775,"{""model__max_depth"": null, ""model__min_samples_leaf"": 2}"
-riwayat_kunjungan,logistic_regression,0.5186991408682003,0.061785588248113366,0.7375,"{""model__C"": 1}"
-profil_lengkap,decision_tree,0.4858666733680431,0.0817423101326187,0.7541666666666667,"{""model__max_depth"": 6, ""model__min_samples_leaf"": 3}"
-riwayat_kunjungan,decision_tree,0.4678855960715807,0.062912897762632,0.7124999999999999,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 8}"
-riwayat_kunjungan,mayoritas,0.30303030303030304,0.0,0.8333333333333334,{}
-profil_lengkap,mayoritas,0.30303030303030304,0.0,0.8333333333333334,{}
+profil_lengkap,random_forest,0.6330032864125722,0.044706317072304734,0.8583333333333333,"{""model__max_depth"": null, ""model__min_samples_leaf"": 2}"
+riwayat_kunjungan,random_forest,0.5675434995287936,0.03712979225439939,0.8166666666666668,"{""model__max_depth"": null, ""model__min_samples_leaf"": 2}"
+profil_lengkap,logistic_regression,0.548344657768092,0.08692049100520943,0.7458333333333333,"{""model__C"": 0.1}"
+riwayat_kunjungan,logistic_regression,0.4911783644802408,0.11134050444140703,0.7083333333333333,"{""model__C"": 0.1}"
+riwayat_kunjungan,decision_tree,0.49046183597773074,0.10072662899325437,0.6958333333333333,"{""model__max_depth"": 4, ""model__min_samples_leaf"": 8}"
+profil_lengkap,decision_tree,0.48952738050250094,0.05145382291295364,0.6958333333333333,"{""model__max_depth"": 6, ""model__min_samples_leaf"": 3}"
+riwayat_kunjungan,mayoritas,0.3027528160271523,0.010175973934688418,0.8333333333333334,{}
+profil_lengkap,mayoritas,0.3027528160271523,0.010175973934688418,0.8333333333333334,{}

@@ -1,41 +1,41 @@
 {
   "selected_model": "random_forest",
   "feature_set": "profil_lengkap",
-  "cv_macro_f1": 0.5850091434409158,
+  "cv_macro_f1": 0.6330032864125722,
   "parameters": {
     "model__max_depth": null,
     "model__min_samples_leaf": 2
   },
   "test_report": {
     "sepi": {
-      "precision": 1.0,
-      "recall": 0.5,
-      "f1-score": 0.6666666666666666,
-      "support": 4.0
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
     },
     "sedang": {
-      "precision": 0.4,
-      "recall": 0.5714285714285714,
-      "f1-score": 0.47058823529411764,
-      "support": 7.0
+      "precision": 0.6666666666666666,
+      "recall": 0.2222222222222222,
+      "f1-score": 0.3333333333333333,
+      "support": 9.0
     },
     "ramai": {
-      "precision": 0.9387755102040817,
-      "recall": 0.92,
-      "f1-score": 0.9292929292929293,
+      "precision": 0.8448275862068966,
+      "recall": 0.98,
+      "f1-score": 0.9074074074074074,
       "support": 50.0
     },
-    "accuracy": 0.8524590163934426,
+    "accuracy": 0.8360655737704918,
     "macro avg": {
-      "precision": 0.7795918367346939,
-      "recall": 0.6638095238095238,
-      "f1-score": 0.6888492770845712,
+      "precision": 0.5038314176245211,
+      "recall": 0.4007407407407408,
+      "f1-score": 0.41358024691358025,
       "support": 61.0
     },
     "weighted avg": {
-      "precision": 0.8809635329541652,
-      "recall": 0.8524590163934426,
-      "f1-score": 0.8594332914487206,
+      "precision": 0.7908422837761446,
+      "recall": 0.8360655737704918,
+      "f1-score": 0.7929568913175471,
       "support": 61.0
     }
   },
@@ -46,19 +46,19 @@
   ],
   "confusion_matrix": [
     [
-      2,
-      2,
-      0
+      0,
+      0,
+      2
     ],
     [
       0,
-      4,
-      3
+      2,
+      7
     ],
     [
       0,
-      4,
-      46
+      1,
+      49
     ]
   ],
   "majority_test_report": {
@@ -66,13 +66,13 @@
       "precision": 0.0,
       "recall": 0.0,
       "f1-score": 0.0,
-      "support": 4.0
+      "support": 2.0
     },
     "sedang": {
       "precision": 0.0,
       "recall": 0.0,
       "f1-score": 0.0,
-      "support": 7.0
+      "support": 9.0
     },
     "ramai": {
       "precision": 0.819672131147541,
