@@ -78,4 +78,4 @@ DEPLOYMENT.md                  langkah unggah dan hosting
 
 Daftar ID awal dari [rodict](https://rodict.vercel.app/api-docs); seluruh statistik model diambil ulang melalui [API publik Roblox](https://create.roblox.com/docs/cloud/reference/domains/games) pada 16 Oktober 2026. Dua entri tidak tersedia dikeluarkan. Hash, URL dan waktu respons ada di data/raw/manifest.json. Waktu tersebut adalah penyimpanan respons, bukan waktu pengukuran internal Roblox. Aplikasi tidak mengambil statistik live.
 
-Lisensi MIT mencakup kode proyek, bukan hak atas merek dan konten game. Atribusi data: [data/README.md](data/README.md). Proyek pendidikan independen, tidak berafiliasi dengan Roblox Corporation; kode dikembangkan dengan bantuan AI dan harus dipahami sesuai ketentuan mata kuliah.
+Lisensi MIT mencakup kode proyek, bukan hak atas merek dan konten game. Atribusi data: [data/README.md](data/README.md). Proyek pendidikan independen, tidak berafiliasi dengan Roblox Corporation.
