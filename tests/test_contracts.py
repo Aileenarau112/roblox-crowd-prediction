@@ -9,8 +9,20 @@ import pandas as pd
 from sklearn.metrics import f1_score
 from data import ROOT, LABELS, build_features, crowd_label
 from predict import predict_frame
+from train import macro_f1_scorer
+from sklearn.dummy import DummyClassifier
+from sklearn.model_selection import GridSearchCV, StratifiedKFold
 
 class Contracts(unittest.TestCase):
+    def test_grid_search_accepts_three_string_labels(self):
+        # Exercise scoring through GridSearchCV, where sklearn 1.5 raised pos_label=1.
+        X = np.arange(18).reshape(9, 2)
+        y = np.array(LABELS * 3)
+        search = GridSearchCV(DummyClassifier(strategy='most_frequent'), {},
+                              scoring=macro_f1_scorer(), cv=StratifiedKFold(3), error_score='raise')
+        search.fit(X, y)
+        self.assertAlmostEqual(search.best_score_, 1/6)
+
     def test_class_boundaries(self):
         self.assertEqual([crowd_label(v) for v in [0,99,100,999,1000]], ['sepi','sepi','sedang','sedang','ramai'])
 

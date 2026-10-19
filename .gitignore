@@ -3,4 +3,5 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .DS_Store
-models/*.joblib
+# The trusted deployment model is intentionally tracked for cloud inference.
+.streamlit/secrets.toml

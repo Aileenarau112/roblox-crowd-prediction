@@ -31,7 +31,7 @@ Kita memberi model empat angka: kunjungan, favorit, umur dalam hari, kapasitas s
 
 Dari 61 game uji, 50 termasuk ramai. Jadi, tanpa belajar apa pun, menebak semua game ramai sudah benar sekitar 82%. Namun tebakan itu selalu salah untuk game sepi dan sedang.
 
-Model kita benar untuk 52 game: 2 sepi, 4 sedang, dan 46 ramai. Karena itu hasilnya lebih menarik dibahas per kategori. Model masih salah pada separuh contoh sepi; ini perlu disebut dengan jujur.
+Model benar untuk 51 game: 0 sepi, 2 sedang, dan 49 ramai. Model belum berhasil mengenali dua contoh sepi dan masih lemah pada game sedang. Hasil ini perlu disebut dengan jujur.
 
 ## Cara mencoba di Windows
 
@@ -42,19 +42,12 @@ Model kita benar untuk 52 game: 2 sepi, 4 sedang, dan 46 ramai. Karena itu hasil
 
 Total kunjungan bukan pemain unik. Kapasitas server juga bukan jumlah pemain aktif seluruh game. Tidak perlu login ke Roblox.
 
-## Cara mengunggah lewat GitHub
+## Memperbarui GitHub dan deployment
 
-1. Login ke GitHub, klik **+ → New repository**.
-2. Isi nama `roblox-crowd-prediction`. Pilih visibilitas sesuai instruksi dosen. Jika dosen perlu membuka tautannya tanpa undangan, gunakan Public.
-3. Buat repository kosong. README proyek sudah disertakan.
-4. Pilih **uploading an existing file** atau **Add file → Upload files**.
-5. Seret isi folder proyek, termasuk folder data, src, results, notebooks, examples, dan tests. File README.md harus tampil pada halaman utama repository. Jangan hanya menyeret ZIP.
-6. Sertakan `.gitignore` jika file tersembunyi belum ikut terseret. Jangan mengunggah `.venv`, `__pycache__`, atau model `.joblib`.
-7. Tulis pesan commit, misalnya `Add Roblox crowd classification project`, lalu simpan.
-8. Periksa bahwa README, gambar hasil, dan kode dapat dibuka. Kirim tautan repository tersebut ke dosen.
+Gunakan repository yang sudah ada: https://github.com/Aileenarau112/roblox-crowd-prediction. Ikuti DEPLOYMENT.md untuk menyalin perubahan, commit, push, lalu hosting. Model models/crowd_model.joblib harus ikut diunggah pada tahap deployment ini. Jangan mengunggah .venv atau secrets.
 
 ## Kalimat untuk menjelaskan ke dosen
 
-“Proyek saya memperkirakan kategori keramaian game Roblox dari empat statistik game. Saya membandingkan beberapa model dan memilihnya berdasarkan validasi data latih. Pada 61 game uji, Random Forest benar untuk 52 game, tetapi kemampuan mengenali game sepi dan sedang masih terbatas karena datanya sedikit.”
+“Proyek saya memperkirakan kategori keramaian game Roblox dari empat statistik game. Saya membandingkan beberapa model dan memilihnya berdasarkan validasi data latih. Pada 61 game uji, Random Forest benar untuk 51 game, tetapi kemampuan mengenali game sepi dan sedang masih terbatas karena datanya sedikit.”
 
 Jangan menyebut proyek ini sebagai ramalan game viral, prediksi pemain besok, bot Roblox, atau pembuat game. Itu bukan yang diuji.
